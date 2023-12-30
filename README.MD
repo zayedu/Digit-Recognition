@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hey there! Welcome to my handwritten digit classification project. In this project, I've developed a machine learning model using the MNIST dataset to classify handwritten digits. It's a fascinating journey from loading the data, preprocessing it, building a convolutional neural network (CNN), to training the model and making predictions. Let's dive in!
+Hey there! Welcome to my handwritten digit classification project. In this project, I've developed a machine learning model using the MNIST dataset and PyTorch to classify handwritten digits. It's a fascinating journey from loading the data, preprocessing it, building a convolutional neural network (CNN), to training the model and making predictions. Let's dive in!
 
 ## Dataset
 
