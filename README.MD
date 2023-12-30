@@ -27,7 +27,8 @@ test_data = datasets.MNIST(
 )
 ```
 
-##Data Loading
+## Data Loading
+
 Efficiency is key! I set up DataLoaders for both the training and test sets. This helps in efficiently loading the data during both the training and testing phases.
 
 ```python
@@ -39,7 +40,8 @@ loaders = {
 }
 ```
 
-##Model Architecture
+## Model Architecture
+
 Let's talk about the model. It's a CNN with two convolutional layers (to capture those patterns in the images), dropout (to avoid overfitting), and two fully connected layers. The final touch is the softmax function in the output layer, perfect for multi-class classification.
 
 ```python
@@ -65,7 +67,8 @@ class CNN(nn.Module):
         return F.softmax(x)
 ```
 
-##Training and Evaluation
+## Training and Evaluation
+
 Training the model is where the magic happens. I use the Adam optimizer and cross-entropy loss function. Here's a peek into how the model is trained and evaluated:
 
 ```python
@@ -79,7 +82,8 @@ loss_fn = nn.CrossEntropyLoss()
 # Train and test functions are defined here...
 ```
 
-##Model Prediction
+## Model Prediction
+
 Finally, it's time to see the model in action! Here's how I make a sample prediction using the trained model, showcasing its ability to classify individual handwritten digits.
 
 ```python
